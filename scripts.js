@@ -134,7 +134,15 @@ const numbers = {
     "443-226": {
         name: "Banana Wizard",
         foundAt: "RT"
-    }
+    },
+    "834-286": {
+        name: "Defense Class",
+        foundAt: "RT"
+    },
+    "???-???": {
+        name: "??? Dram's Dial-A-Romance",
+        foundAt: "RT"
+    } 
 };
 
 const createSpan = (contents) => {
