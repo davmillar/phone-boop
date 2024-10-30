@@ -1,31 +1,66 @@
 const numbers = {
     "443-401": {
         "name": "Goldfish Cyber Night",
-        "foundAt": "TRU"
+        "foundAt": "RT"
     },
-    "584-076": {
-        "name": "ETNL Reception"
+    "584-388": {
+        "name": "ETNL Main",
+        "foundAt": "RT"
     }, 
+    "584-935": {
+        "name": "Zelfina's Burgz",
+        "foundAt": "RT"
+    }, 
+    "584-076": {
+        "name": "ETNL Reception",
+        "foundAt": "RT"
+    }, 
+    "584-344": {
+        "name": "Yummy Pickled Egg",
+        "foundAt": "RT"
+    },
+    "584-344 (2)": {
+        "name": "Wedding DJ Wanted",
+        "foundAt": "RT"
+    }, 
+    "584-344 (3)": {
+        "name": "M???cita's Pickled Eggs",
+        "foundAt": "RT"
+    },
     "584-001": {
-        "name": "ETNL Station Manager"
+        "name": "ETNL Station Manager",
+        "foundAt": "RT"
     }, 
     "584-748": {
-        "name": "ETNL Green Room"
+        "name": "ETNL Green Room",
+        "foundAt": "RT"
     }, 
     "584-480": {
-        "name": "ETNL Rack Room"
+        "name": "ETNL Rack Room",
+        "foundAt": "RT"
     }, 
     "584-873": {
-        "name": "ETNL Roof Deck"
+        "name": "ETNL Roof Deck",
+        "foundAt": "RT"
     }, 
     "584-986": {
-        "name": "ETNL Breakroom"
+        "name": "ETNL Breakroom",
+        "foundAt": "RT"
+    }, 
+    "584-549": {
+        "name": "The Lizard Pit",
+        "foundAt": "RT"
     }, 
     "639-466": {
-        "name": "Silent Schleppers"
+        "name": "Silent Schleppers",
+        "foundAt": "RT"
     }, 
     "639-744": {
         "name": "???",
+        "foundAt": "RT"
+    },
+    "639-349": {
+        "name": "SeiSo's Specialty Tools",
         "foundAt": "RT"
     }, 
     "639-282": {
@@ -49,8 +84,57 @@ const numbers = {
         "foundAt": "RT"
     },
     "713-281": {
-        "name": "DJ Hawk?"
-    } 
+        "name": "DJ Hawk?",
+        "foundAt": "RT"
+    },
+    "484-437": {
+        "name": "Doppelgänger Hotline",
+        "foundAt": "RT"
+    }, 
+    "584-447": {
+        "name": "Garlic Inferno",
+        "foundAt": "RT"
+    },
+    "584-228": {
+        "name": "Ramona's Music Lessons",
+        "foundAt": "RT"
+    }, 
+    "589-777": {
+        "name": "Cowboix Hevvven",
+        "foundAt": "RT"
+    }, 
+    "634-799": {
+        "name": "???",
+        "foundAt": "RT"
+    }, 
+    "639-119": {
+        "name": "Buy Our Collected Calls",
+        "foundAt": "RT"
+    },
+    "639-119 (2)": {
+        "name": "Ska Band Hotline",
+        "foundAt": "RT"
+    }, 
+    "484-204": {
+        name: "Le Coupez, Alteraciones",
+        foundAt: "RT"
+    }, 
+    "443-401": {
+        name: "Misstix",
+        foundAt: "RT"
+    }, 
+    "443-401 (2)": {
+        name: "Cyber Night Color",
+        foundAt: "RT"
+    }, 
+    "773-404": {
+        name: "Charlie Dram's Mish Mash",
+        foundAt: "RT"
+    },
+    "443-226": {
+        name: "Banana Wizard",
+        foundAt: "RT"
+    }
 };
 
 const createSpan = (contents) => {
