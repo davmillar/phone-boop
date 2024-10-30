@@ -14,9 +14,15 @@ body {
     overflow: auto;
 }
 
-h1 {
+h1, footer{
     text-align: center;
 }
+
+a {
+    font-weight: bold;
+    color: inherit;
+}
+
 
 ul {
     display: block;
@@ -25,13 +31,14 @@ ul {
     list-style: none;
     margin: .5em auto;
     padding: 0;
+    line-height: 1.5;
 }
 
 li {
     display: flex;
     list-style: none;
     margin: 0;
-    padding: .3em .5em;
+    padding: 0;
 }
 
 li :is(span, strong) {

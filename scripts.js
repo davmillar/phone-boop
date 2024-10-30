@@ -344,5 +344,5 @@ numbers.sort((dataA, dataB) => {
     list.appendChild(listItem);
 });
     
-document.body.appendChild(list); 
+document.body.insertBefore(list, document.querySelector('footer')); 
     
