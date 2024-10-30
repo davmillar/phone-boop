@@ -1,0 +1,40 @@
+html {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+body {
+    background: #ed9;
+    color: #210;
+    box-shadow: inset 0 0 2em 1em #cb7;
+    margin: 0;
+    padding: 1em;
+    height: 100%;
+}
+
+ul {
+    display: block;
+    column-width: 20em;
+    gap: 1em;
+    list-style: none;
+    margin: .5em auto;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: .3em .5em;
+}
+
+li :is(span, strong) {
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+li span:nth-child(2) {
+    flex: 1;
+    border-bottom: 2px dotted;
+}
