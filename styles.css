@@ -33,9 +33,18 @@ li {
 li :is(span, strong) {
     display: inline-block;
     padding: 0 .5em;
+    vertical-align: top;
 }
 
-li span:nth-child(2) {
+li :first-child {
+    flex-shrink: 1;
+}
+
+li :nth-child(2) {
     flex: 1;
     border-bottom: 2px dotted;
+}
+
+li :last-child {
+    flex-shrink: 0;
 }

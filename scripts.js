@@ -1,7 +1,112 @@
 const numbers = {
+    "376-101": {
+        name: "Walter Dram",
+        foundAt: "OM"
+    },
+    "376-102": {
+        name: "Cecelia Dram",
+        foundAt: "OM"
+    },
+    "376-105": {
+        name: "Kaz Matsumura",
+        foundAt: "OM"
+    },
+    "376-771": {
+        name: "Lord Petri Dockett III",
+        foundAt: "OM"
+    },
+    "376-772": {
+        name: "Beatrice Young",
+        foundAt: "OM"
+    },
+    "376-773": {
+        name: "Elder Yanis",
+        foundAt: "OM"
+    },
+    "376-774": {
+        name: "Oni Stern",
+        foundAt: "OM"
+    },
+    "376-775": {
+        name: "Belmont Grant",
+        foundAt: "OM"
+    },
+    "376-776": {
+        name: "Javier Apodaca",
+        foundAt: "OM"
+    },
+    "376-777": {
+        name: "Olive Rojas-Diaz",
+        foundAt: "OM"
+    },
+    "376-778": {
+        name: "Jacqueline Sorrentino",
+        foundAt: "OM"
+    },
+    "376-779": {
+        name: "El Espectro",
+        foundAt: "OM"
+    },
+    "376-305": {
+        name: "Dramcorp Main Line",
+        foundAt: "OM"
+    },
+    "376-303": {
+        name: "Dramcorp IT",
+        foundAt: "OM"
+    },
+    "376-307": {
+        name: "Dramcorp HR",
+        foundAt: "OM"
+    },
+    "376-406": {
+        name: "Dramcorp Legal",
+        foundAt: "OM"
+    },
+    "376-501": {
+        name: "Dramcorp Marketing",
+        foundAt: "OM"
+    },
+    "376-868": {
+        name: "Dramcorp Hotline",
+        foundAt: "OM"
+    },
+    "376-912": {
+        name: "Dramcorp Security",
+        foundAt: "OM"
+    },
+    "378-001": {
+        name: "DART Offices",
+        foundAt: "OM"
+    },
+    "378-010": {
+        name: "DART Portal Testing",
+        foundAt: "OM"
+    },
+    "322-426": {
+        name: "Dramcorp Factory Foreman's Office",
+        foundAt: "OM"
+    },
+
+    "972-736-7676": {
+        name: "Dug",
+        foundAt: "TRU"
+    },
     "443-401": {
         "name": "Goldfish Cyber Night",
         "foundAt": "RT"
+    },
+    "484-666": {
+        "name": "???",
+        "foundAt": "???"
+    },
+    "484-777": {
+        "name": "Battle of the Ages/Llama",
+        "foundAt": "TRU"
+    },
+    "484-237": {
+        "name": "?ur-i-ñoz",
+        "foundAt": "TRU"
     },
     "584-388": {
         "name": "ETNL Main",
