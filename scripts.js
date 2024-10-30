@@ -1,254 +1,316 @@
-const numbers = {
-    "376-101": {
+const numbers = [
+    {
+        number: "376-101",
         name: "Walter Dram",
         foundAt: "OM"
     },
-    "376-102": {
+    {
+        number: "376-102",
         name: "Cecelia Dram",
         foundAt: "OM"
     },
-    "376-105": {
+    {
+        number: "376-105",
         name: "Kaz Matsumura",
         foundAt: "OM"
     },
-    "376-771": {
+    {
+        number: "376-771",
         name: "Lord Petri Dockett III",
         foundAt: "OM"
     },
-    "376-772": {
+    {
+        number: "376-772",
         name: "Beatrice Young",
         foundAt: "OM"
     },
-    "376-773": {
+    {
+        number: "376-773",
         name: "Elder Yanis",
         foundAt: "OM"
     },
-    "376-774": {
+    {
+        number: "376-774",
         name: "Oni Stern",
         foundAt: "OM"
     },
-    "376-775": {
+    {
+        number: "376-775",
         name: "Belmont Grant",
         foundAt: "OM"
     },
-    "376-776": {
+    {
+        number: "376-776",
         name: "Javier Apodaca",
         foundAt: "OM"
     },
-    "376-777": {
+    {
+        number: "376-777",
         name: "Olive Rojas-Diaz",
         foundAt: "OM"
     },
-    "376-778": {
+    {
+        number: "376-778",
         name: "Jacqueline Sorrentino",
         foundAt: "OM"
     },
-    "376-779": {
+    {
+        number: "376-779",
         name: "El Espectro",
         foundAt: "OM"
     },
-    "376-305": {
+    {
+        number: "376-305",
         name: "Dramcorp Main Line",
         foundAt: "OM"
     },
-    "376-303": {
+    {
+        number: "376-303",
         name: "Dramcorp IT",
         foundAt: "OM"
     },
-    "376-307": {
+    {
+        number: "376-307",
         name: "Dramcorp HR",
         foundAt: "OM"
     },
-    "376-406": {
+    {
+        number: "376-406",
         name: "Dramcorp Legal",
         foundAt: "OM"
     },
-    "376-501": {
+    {
+        number: "376-501",
         name: "Dramcorp Marketing",
         foundAt: "OM"
     },
-    "376-868": {
+    {
+        number: "376-868",
         name: "Dramcorp Hotline",
         foundAt: "OM"
     },
-    "376-912": {
+    {
+        number: "376-912",
         name: "Dramcorp Security",
         foundAt: "OM"
     },
-    "378-001": {
+    {
+        number: "378-001",
         name: "DART Offices",
         foundAt: "OM"
     },
-    "378-010": {
+    {
+        number: "378-010",
         name: "DART Portal Testing",
         foundAt: "OM"
     },
-    "322-426": {
+    {
+        number: "322-426",
         name: "Dramcorp Factory Foreman's Office",
         foundAt: "OM"
     },
 
-    "972-736-7676": {
+    {
+        number: "972-736-7676",
         name: "Dug",
         foundAt: "TRU"
     },
-    "443-401": {
-        "name": "Goldfish Cyber Night",
-        "foundAt": "RT"
+    {
+        number: "443-401",
+        name: "Goldfish Cyber Night",
+        foundAt: "RT"
     },
-    "484-666": {
-        "name": "???",
-        "foundAt": "???"
+    {
+        number: "484-666",
+        name: "???",
+        foundAt: "???"
     },
-    "484-777": {
-        "name": "Battle of the Ages/Llama",
-        "foundAt": "TRU"
+    {
+        number: "484-777",
+        name: "Battle of the Ages/Llama",
+        foundAt: "TRU"
     },
-    "484-237": {
-        "name": "?ur-i-ñoz",
-        "foundAt": "TRU"
+    {
+        number: "484-237",
+        name: "?ur-i-ñoz",
+        foundAt: "TRU"
     },
-    "584-388": {
-        "name": "ETNL Main",
-        "foundAt": "RT"
+    {
+        number: "584-388",
+        name: "ETNL Main",
+        foundAt: "RT"
     }, 
-    "584-935": {
-        "name": "Zelfina's Burgz",
-        "foundAt": "RT"
+    {
+        number: "584-935",
+        name: "Zelfina's Burgz",
+        foundAt: "RT"
     }, 
-    "584-076": {
-        "name": "ETNL Reception",
-        "foundAt": "RT"
+    {
+        number: "584-076",
+        name: "ETNL Reception",
+        foundAt: "RT"
     }, 
-    "584-344": {
-        "name": "Yummy Pickled Egg",
-        "foundAt": "RT"
+    {
+        number: "584-344",
+        name: "Yummy Pickled Egg",
+        foundAt: "RT"
     },
-    "584-344 (2)": {
-        "name": "Wedding DJ Wanted",
-        "foundAt": "RT"
+    {
+        number: "584-344",
+        name: "Wedding DJ Wanted",
+        foundAt: "RT"
     }, 
-    "584-344 (3)": {
-        "name": "M???cita's Pickled Eggs",
-        "foundAt": "RT"
+    {
+        number: "584-344",
+        name: "M???cita's Pickled Eggs",
+        foundAt: "RT"
     },
-    "584-001": {
-        "name": "ETNL Station Manager",
-        "foundAt": "RT"
+    {
+        number: "584-001",
+        name: "ETNL Station Manager",
+        foundAt: "RT"
     }, 
-    "584-748": {
-        "name": "ETNL Green Room",
-        "foundAt": "RT"
+    {
+        number: "584-748",
+        name: "ETNL Green Room",
+        foundAt: "RT"
     }, 
-    "584-480": {
-        "name": "ETNL Rack Room",
-        "foundAt": "RT"
+    {
+        number: "584-480",
+        name: "ETNL Rack Room",
+        foundAt: "RT"
     }, 
-    "584-873": {
-        "name": "ETNL Roof Deck",
-        "foundAt": "RT"
+    {
+        number: "584-873",
+        name: "ETNL Roof Deck",
+        foundAt: "RT"
     }, 
-    "584-986": {
-        "name": "ETNL Breakroom",
-        "foundAt": "RT"
+    {
+        number: "584-986",
+        name: "ETNL Breakroom",
+        foundAt: "RT"
     }, 
-    "584-549": {
-        "name": "The Lizard Pit",
-        "foundAt": "RT"
+    {
+        number: "584-549",
+        name: "The Lizard Pit",
+        foundAt: "RT"
     }, 
-    "639-466": {
-        "name": "Silent Schleppers",
-        "foundAt": "RT"
+    {
+        number: "639-466",
+        name: "Silent Schleppers",
+        foundAt: "RT"
     }, 
-    "639-744": {
-        "name": "???",
-        "foundAt": "RT"
+    {
+        number: "639-744",
+        name: "???",
+        foundAt: "RT"
     },
-    "639-349": {
-        "name": "SeiSo's Specialty Tools",
-        "foundAt": "RT"
+    {
+        number: "639-349",
+        name: "SeiSo's Specialty Tools",
+        foundAt: "RT"
     }, 
-    "639-282": {
-        "name": "???",
-        "foundAt": "RT"
+    {
+        number: "639-282",
+        name: "???",
+        foundAt: "RT"
     }, 
-    "639-555": {
-        "name": "???",
-        "foundAt": "RT"
+    {
+        number: "639-555",
+        name: "???",
+        foundAt: "RT"
     }, 
-    "484-211": {
-        "name": "???",
-        "foundAt": "RT"
+    {
+        number: "484-211",
+        name: "???",
+        foundAt: "RT"
     }, 
-    "278-209": {
-        "name": "???",
-        "foundAt": "RT"
+    {
+        number: "278-209",
+        name: "???",
+        foundAt: "RT"
     },
-    "484-201": {
-        "name": "???",
-        "foundAt": "RT"
+    {
+        number: "484-201",
+        name: "???",
+        foundAt: "RT"
     },
-    "713-281": {
-        "name": "DJ Hawk?",
-        "foundAt": "RT"
+    {
+        number: "713-281",
+        name: "DJ Hawk?",
+        foundAt: "RT"
     },
-    "484-437": {
-        "name": "Doppelgänger Hotline",
-        "foundAt": "RT"
+    {
+        number: "484-437",
+        name: "Doppelgänger Hotline",
+        foundAt: "RT"
     }, 
-    "584-447": {
-        "name": "Garlic Inferno",
-        "foundAt": "RT"
+    {
+        number: "584-447",
+        name: "Garlic Inferno",
+        foundAt: "RT"
     },
-    "584-228": {
-        "name": "Ramona's Music Lessons",
-        "foundAt": "RT"
+    {
+        number: "584-228",
+        name: "Ramona's Music Lessons",
+        foundAt: "RT"
     }, 
-    "589-777": {
-        "name": "Cowboix Hevvven",
-        "foundAt": "RT"
+    {
+        number: "589-777",
+        name: "Cowboix Hevvven",
+        foundAt: "RT"
     }, 
-    "634-799": {
-        "name": "???",
-        "foundAt": "RT"
+    {
+        number: "634-799",
+        name: "???",
+        foundAt: "RT"
     }, 
-    "639-119": {
-        "name": "Buy Our Collected Calls",
-        "foundAt": "RT"
+    {
+        number: "639-119",
+        name: "Buy Our Collected Calls",
+        foundAt: "RT"
     },
-    "639-119 (2)": {
-        "name": "Ska Band Hotline",
-        "foundAt": "RT"
+    {
+        number: "639-119",
+        name: "Ska Band Hotline",
+        foundAt: "RT"
     }, 
-    "484-204": {
+    {
+        number: "484-204",
         name: "Le Coupez, Alteraciones",
         foundAt: "RT"
     }, 
-    "443-401": {
+    {
+        number: "443-401",
         name: "Misstix",
         foundAt: "RT"
     }, 
-    "443-401 (2)": {
+    {
+        number: "443-401",
         name: "Cyber Night Color",
         foundAt: "RT"
     }, 
-    "773-404": {
+    {
+        number: "773-404",
         name: "Charlie Dram's Mish Mash",
         foundAt: "RT"
     },
-    "443-226": {
+    {
+        number: "443-226",
         name: "Banana Wizard",
         foundAt: "RT"
     },
-    "834-286": {
+    {
+        number: "834-286",
         name: "Defense Class",
         foundAt: "RT"
     },
-    "???-???": {
+    {
+        number: "???-???",
         name: "??? Dram's Dial-A-Romance",
         foundAt: "RT"
     } 
-};
+];
 
 const createSpan = (contents) => {
     const span = document.createElement('span');
@@ -265,11 +327,19 @@ const createStrong = (contents) => {
 
 const list = document.createElement('ul');
 
-Object.entries(numbers).sort(([numberA, dataA], [numberB, dataB]) => dataA.name.localeCompare(dataB.name)).forEach(([number, data]) => {
+numbers.sort((dataA, dataB) => {
+    let nameComp = dataA.name.localeCompare(dataB.name);
+
+    if (nameComp !== 0) {
+        return nameComp;
+    }
+
+    return dataA.number.localeCompare(dataB.number);
+}).forEach((data) => {
     const listItem = document.createElement('li');
         listItem.appendChild(createStrong(data.name));
             listItem.appendChild(createSpan(''));
-            listItem.appendChild(createSpan(number));
+            listItem.appendChild(createSpan(data.number));
         
     list.appendChild(listItem);
 });
