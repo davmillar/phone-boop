@@ -5,6 +5,11 @@ const numbers = [
         foundAt: "RT"
     },
     {
+        number: "313-131",
+        name: "C-Street/Denver according to ETNL Reception Desk",
+        foundAt: "RT"
+    },
+    {
         number: "376-101",
         name: "Walter Dram",
         foundAt: "OM"
@@ -127,7 +132,7 @@ const numbers = [
     },
     {
         number: "484-666",
-        name: "???",
+        name: "Plotzo/Undermallers?",
         foundAt: "???"
     },
     {
@@ -167,7 +172,7 @@ const numbers = [
     }, 
     {
         number: "584-344",
-        name: "M???cita's Pickled Eggs",
+        name: "Mamacita's Pickled Eggs",
         foundAt: "RT"
     },
     {
@@ -252,7 +257,7 @@ const numbers = [
     }, 
     {
         number: "278-986",
-        name: "???",
+        name: "??? (All circuits busy now)",
         foundAt: "RT"
     }, 
     {
@@ -297,7 +302,7 @@ const numbers = [
     }, 
     {
         number: "634-799",
-        name: "???",
+        name: "??? (Cannot be completed as dialed)",
         foundAt: "RT"
     }, 
     {
@@ -357,7 +362,7 @@ const numbers = [
     },
     {
         number: "664-666",
-        name: "??? (Phone Tree)",
+        name: "Dramcorp Chambers of Customer Service",
         foundAt: "RT"
     }
 ];
