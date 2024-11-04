@@ -216,8 +216,13 @@ const numbers = [
         foundAt: "RT"
     }, 
     {
+        number: "639-349",
+        name: "Are you Flexing On Me Bro? (Male Aggression Hotline)",
+        foundAt: "RT"
+    }, 
+    {
         number: "639-282",
-        name: "???",
+        name: "Amalgam",
         foundAt: "RT"
     }, 
     {
@@ -232,7 +237,7 @@ const numbers = [
     }, 
     {
         number: "484-211",
-        name: "???",
+        name: "Baby/Chicken Noise?",
         foundAt: "RT"
     }, 
     {
