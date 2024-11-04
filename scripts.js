@@ -1,5 +1,10 @@
 const numbers = [
     {
+        number: "584-969",
+        name: "Pennsylvania Dutch Yinz-enary",
+        foundAt: "RT"
+    },
+    {
         number: "376-101",
         name: "Walter Dram",
         foundAt: "OM"
@@ -216,6 +221,11 @@ const numbers = [
         foundAt: "RT"
     }, 
     {
+        number: "484-327",
+        name: "???",
+        foundAt: "RT"
+    }, 
+    {
         number: "639-555",
         name: "???",
         foundAt: "RT"
@@ -228,6 +238,21 @@ const numbers = [
     {
         number: "278-209",
         name: "???",
+        foundAt: "RT"
+    }, 
+    {
+        number: "278-986",
+        name: "???",
+        foundAt: "RT"
+    }, 
+    {
+        number: "278-208",
+        name: "??? (On breaker switch)",
+        foundAt: "RT"
+    },
+    {
+        number: "594-386",
+        name: "??? (RT Teaser Commercial)",
         foundAt: "RT"
     },
     {
@@ -309,7 +334,17 @@ const numbers = [
         number: "???-???",
         name: "??? Dram's Dial-A-Romance",
         foundAt: "RT"
-    } 
+    },
+    {
+        number: "664-739",
+        name: "Hester Dram",
+        foundAt: "Reddit"
+    },
+    {
+        number: "664-206",
+        name: "???",
+        foundAt: "RT"
+    }
 ];
 
 const createSpan = (contents) => {
