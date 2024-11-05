@@ -369,7 +369,7 @@ const numbers = [
     },
     {
         number: "664-205",
-        name: "???",
+        name: "??? (Live phone somewhere)",
         foundAt: "RT"
     },
     {
@@ -379,7 +379,7 @@ const numbers = [
     },
     {
         number: "443-242",
-        name: "???",
+        name: "??? (No answer)",
         foundAt: "RT"
     }
 ];
