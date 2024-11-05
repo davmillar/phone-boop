@@ -127,11 +127,10 @@ const numbers = [
 
     {
         number: "972-736-7676",
-        name: "Dug",
+        name: "Dug's Old Phone Number (Use MW App Now)",
         foundAt: "TRU",
         image: "dug.png",
-        imageAlt: "Got a bean for your mind garden? Text Dug at 972-736-7676",
-        text: true
+        imageAlt: "Got a bean for your mind garden? Text Dug at 972-736-7676"
     },
     {
         number: "443-401",
