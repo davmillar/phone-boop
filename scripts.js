@@ -411,6 +411,7 @@ numbers.sort((dataA, dataB) => {
     if (data.image) {
         const listItemImg = document.createElement('li');
         listItemImg.classList.add("imageItem");
+        listItemImg.setAttribute("img-src", data.image);
         
         listItemImg.appendChild(createImage(data.image, data.imageAlt));
         
