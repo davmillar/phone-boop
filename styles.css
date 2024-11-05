@@ -12,6 +12,7 @@ body {
     padding: 1em;
     min-height: 100%;
     overflow: auto;
+    font-family: "Tektur", sans-serif;
 }
 
 h1, footer{

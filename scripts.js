@@ -167,11 +167,6 @@ const numbers = [
     }, 
     {
         number: "584-344",
-        name: "Yummy Pickled Egg",
-        foundAt: "RT"
-    },
-    {
-        number: "584-344",
         name: "Wedding DJ Wanted",
         foundAt: "RT"
     }, 
