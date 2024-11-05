@@ -250,7 +250,12 @@ const numbers = [
     }, 
     {
         number: "278-209",
-        name: "???",
+        name: "??? (All circuits busy now)",
+        foundAt: "RT"
+    },
+    {
+        number: "010-222-8371",
+        name: "Smellin Melvin",
         foundAt: "RT"
     }, 
     {
@@ -265,7 +270,7 @@ const numbers = [
     }, 
     {
         number: "278-208",
-        name: "??? (On breaker switch)",
+        name: "??? (No answer -- On breaker switch)",
         foundAt: "RT"
     },
     {
@@ -285,7 +290,7 @@ const numbers = [
     },
     {
         number: "713-281",
-        name: "DJ Hawk?",
+        name: "DJ Hawk? (Cannot be completed ad dialed)",
         foundAt: "RT"
     },
     {
