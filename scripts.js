@@ -115,6 +115,11 @@ const numbers = [
         foundAt: "OM"
     },
     {
+        number: "378-492",
+        name: "DART Flyer",
+        foundAt: "RT"
+    },
+    {
         number: "322-426",
         name: "Dramcorp Factory Foreman's Office",
         foundAt: "OM"
@@ -268,6 +273,11 @@ const numbers = [
     {
         number: "594-386",
         name: "??? (RT Teaser Commercial)",
+        foundAt: "RT"
+    },
+    {
+        number: "584-386",
+        name: "ETNL Main/Phone Tree",
         foundAt: "RT"
     },
     {
