@@ -19,6 +19,10 @@ h1, footer{
     text-align: center;
 }
 
+footer {
+    text-wrap: balance;
+}
+
 h1 img {
     height: 1.5em;
     vertical-align: top;
