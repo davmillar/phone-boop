@@ -132,7 +132,7 @@ const numbers = [
     },
     {
         number: "443-401",
-        name: "Goldfish Cyber Night",
+        name: "Cyber Night",
         foundAt: "RT"
     },
     {
@@ -336,13 +336,8 @@ const numbers = [
         foundAt: "RT"
     }, 
     {
-        number: "443-401",
-        name: "Cyber Night Color",
-        foundAt: "RT"
-    }, 
-    {
         number: "773-404",
-        name: "Charlie Dram's Mish Mash",
+        name: "Charlie Dram",
         foundAt: "RT"
     },
     {
