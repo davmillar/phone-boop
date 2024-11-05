@@ -244,7 +244,7 @@ const numbers = [
     }, 
     {
         number: "484-211",
-        name: "Baby/Chicken Noise?",
+        name: "Lampshop Alley",
         foundAt: "RT"
     }, 
     {
@@ -373,8 +373,18 @@ const numbers = [
         foundAt: "RT"
     },
     {
+        number: "664-205",
+        name: "???",
+        foundAt: "RT"
+    },
+    {
         number: "664-666",
         name: "Dramcorp Chambers of Customer Service",
+        foundAt: "RT"
+    },
+    {
+        number: "443-242",
+        name: "???",
         foundAt: "RT"
     }
 ];
