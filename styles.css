@@ -41,7 +41,7 @@ ul {
     list-style: none;
     margin: .5em auto;
     padding: 0;
-    line-height: 1.5;
+    line-height: 2em;
 }
 
 li {
@@ -68,4 +68,18 @@ li :nth-child(2) {
 
 li :last-child {
     flex-shrink: 0;
+}
+
+li.imageItem {
+    border: 1px solid;
+    height: calc(7.5em - 2px);
+    width: 100%;
+    overflow: hidden;
+    margin: 0.25em 0;
+    padding: 0;
+}
+
+li.imageItem img {
+    mix-blend-mode: multiply;
+    object-fit: cover;
 }

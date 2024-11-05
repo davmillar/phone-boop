@@ -128,7 +128,9 @@ const numbers = [
     {
         number: "972-736-7676",
         name: "Dug",
-        foundAt: "TRU"
+        foundAt: "TRU",
+        image: "dug.png",
+        imageAlt: "Got a bean for your mind garden? Text Dug at 972-736-7676"
     },
     {
         number: "443-401",
@@ -379,6 +381,13 @@ const createStrong = (contents) => {
     return span;
 }; 
 
+const createImage = (src, alt) => {
+    const img = document.createElement('img');
+    img.setAttribute("src", src);
+    img.setAttribute("alt", alt);
+    return img;
+}; 
+
 
 const list = document.createElement('ul');
 
@@ -392,11 +401,21 @@ numbers.sort((dataA, dataB) => {
     return dataA.number.localeCompare(dataB.number);
 }).forEach((data) => {
     const listItem = document.createElement('li');
-        listItem.appendChild(createStrong(data.name));
-            listItem.appendChild(createSpan(''));
-            listItem.appendChild(createSpan(data.number));
+    
+    listItem.appendChild(createStrong(data.name));
+    listItem.appendChild(createSpan(''));
+    listItem.appendChild(createSpan(data.number));
         
     list.appendChild(listItem);
+    
+    if (data.image) {
+        const listItemImg = document.createElement('li');
+        listItemImg.classList.add("imageItem");
+        
+        listItemImg.appendChild(createImage(data.image, data.imageAlt));
+        
+        list.appendChild(listItemImg);
+    } 
 });
     
 document.body.insertBefore(list, document.querySelector('footer')); 
