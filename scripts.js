@@ -166,12 +166,7 @@ const numbers = [
         number: "584-076",
         name: "ETNL Reception",
         foundAt: "RT"
-    }, 
-    {
-        number: "584-344",
-        name: "Wedding DJ Wanted",
-        foundAt: "RT"
-    }, 
+    },
     {
         number: "584-344",
         name: "Mamacita's Pickled Eggs",
@@ -284,7 +279,7 @@ const numbers = [
     },
     {
         number: "484-201",
-        name: "??? (No answer)",
+        name: "Delaney Kitchen",
         foundAt: "RT"
     },
     {
