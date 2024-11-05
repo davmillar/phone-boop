@@ -344,11 +344,6 @@ const numbers = [
         foundAt: "RT"
     }, 
     {
-        number: "443-401",
-        name: "Misstix",
-        foundAt: "RT"
-    }, 
-    {
         number: "773-404",
         name: "Charlie Dram",
         foundAt: "RT"
