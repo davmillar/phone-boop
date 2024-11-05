@@ -130,7 +130,8 @@ const numbers = [
         name: "Dug",
         foundAt: "TRU",
         image: "dug.png",
-        imageAlt: "Got a bean for your mind garden? Text Dug at 972-736-7676"
+        imageAlt: "Got a bean for your mind garden? Text Dug at 972-736-7676",
+        text: true
     },
     {
         number: "443-401",
@@ -254,7 +255,7 @@ const numbers = [
     }, 
     {
         number: "278-201",
-        name: "???",
+        name: "??? (No response)",
         foundAt: "RT"
     }, 
     {
@@ -279,7 +280,7 @@ const numbers = [
     },
     {
         number: "484-201",
-        name: "???",
+        name: "??? (No answer)",
         foundAt: "RT"
     },
     {
@@ -304,6 +305,11 @@ const numbers = [
     }, 
     {
         number: "589-777",
+        name: "Cowboix Hevvven",
+        foundAt: "RT"
+    }, 
+    {
+        number: "1-777-CBX-HVVN",
         name: "Cowboix Hevvven",
         foundAt: "RT"
     }, 
@@ -359,7 +365,7 @@ const numbers = [
     },
     {
         number: "664-206",
-        name: "??? (No Answer)",
+        name: "??? (Live phone somewhere)",
         foundAt: "RT"
     },
     {
@@ -368,6 +374,13 @@ const numbers = [
         foundAt: "RT"
     }
 ];
+
+const createSMSLink = (number) => {
+    const link = document.createElement('a');
+    link.textContent = number;
+    link.setAttribute("href", "sms:+1" + number.replace(/\D/g, ''));
+    return link;
+};
 
 const createSpan = (contents) => {
     const span = document.createElement('span');
@@ -404,7 +417,12 @@ numbers.sort((dataA, dataB) => {
     
     listItem.appendChild(createStrong(data.name));
     listItem.appendChild(createSpan(''));
-    listItem.appendChild(createSpan(data.number));
+    
+    if (data.text) { 
+        listItem.appendChild(createSMSLink(data.number));
+    } else {
+            listItem.appendChild(createSpan(data.number));
+    } 
         
     list.appendChild(listItem);
     
