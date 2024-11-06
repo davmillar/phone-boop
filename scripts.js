@@ -608,6 +608,261 @@ const numbers = [
         foundAt: "Discord"
     },
     {
+        number: "322-355",
+        name: "Element F: Horminal Essentuizer",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-356",
+        name: "Element H: Geodoica",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-457",
+        name: "	Herc Klemens",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-463",
+        name: "Cadence Skilton",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-471",
+        name: "Milica Harambasic",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-479",
+        name: "Ari Antoniu",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-482",
+        name: "Vydilla Alton",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-484",
+        name: "Lester Nightshade",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-487",
+        name: "Nawar Al-Balushi",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-490",
+        name: "Zenit Askfry",
+        foundAt: "Discord"
+    },
+    {
+        number: "352-201",
+        name: "QDOT Denver Station",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-201",
+        name: "Marketing & Future Now Office	",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-202",
+        name: "VP of Tomorrowment's Desk	",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-203",
+        name: "OM Bathroom (Dram IT?)",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-206",
+        name: "Dram Legal Dept.",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-210",
+        name: "Dram Reception Waiting Zone",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-211",
+        name: "Money Tornado	",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-212",
+        name: "VP of Futurability's Desk (Kaz)",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-610",
+        name: "DART Portal Testing",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-633",
+        name: "Portal Sickness Hotline/DART-Med",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-868",
+        name: "Dramcorp Hotline",
+        foundAt: "Discord"
+    },
+    {
+        number: "376-912",
+        name: "Dramcorp Security (Chuck Stager)",
+        foundAt: "Discord"
+    },
+    {
+        number: "378-989",
+        name: "What Is This (Plot Explainer)",
+        foundAt: "Discord"
+    },
+    {
+        number: "423-525",
+        name: "Kaliedogoth Public Forum",
+        foundAt: "Discord"
+    },
+    {
+        number: "437-438",
+        name: "Society of Periphery Studies",
+        foundAt: "Discord"
+    },
+    {
+        number: "484-186",
+        name: "Highest Moral Authority Questions",
+        foundAt: "Discord"
+    },
+    {
+        number: "484-623",
+        name: "Seymour the Subroutine",
+        foundAt: "Discord"
+    },
+    {
+        number: "484-635",
+        name: "Bangerz",
+        foundAt: "Discord"
+    },
+    {
+        number: "484-746",
+        name: "Beep Beep?",
+        foundAt: "Discord"
+    },
+    {
+        number: "484-946",
+        name: "Personality Test",
+        foundAt: "Discord"
+    },
+    {
+        number: "484-975",
+        name: "Chore Wheel",
+        foundAt: "Discord"
+    },
+    {
+        number: "484-986",
+        name: "Chef Choose Your Own Adventure",
+        foundAt: "Discord"
+    },
+    {
+        number: "663-000",
+        name: "Omega Mart Main Line",
+        foundAt: "Discord"
+    },
+    {
+        number: "663-266",
+        name: "Omega Mart Main/Difficult Spills Helpline?",
+        foundAt: "Discord"
+    },
+    {
+        number: "664-201",
+        name: "Omega Mart Produce",
+        foundAt: "Discord"
+    },
+    {
+        number: "664-203",
+        name: "Omega Mart Aisle 5",
+        foundAt: "Discord"
+    },
+    {
+        number: "664-204",
+        name: "Omega Mart Apparel",
+        foundAt: "Discord"
+    },
+    {
+        number: "664-205",
+        name: "Omega Mart Garden,
+        foundAt: "Discord"
+    },
+    {
+        number: "664-206",
+        name: "Omega Mart Deli Arts",
+        foundAt: "Discord"
+    },
+    {
+        number: "664-207",
+        name: "Omega Mart Breakroom",
+        foundAt: "Discord"
+    },
+    {
+        number: "664-665",
+        name: "Omega Mart Reporting Issue Hotline",
+        foundAt: "Discord"
+    },
+    {
+        number: "738-101",
+        name: "QDOT Superconductor General's Desk",
+        foundAt: "Discord"
+    },
+    {
+        number: "738-143",
+        name: "QDOT Department of Quantum and Mnemonic Research",
+        foundAt: "Discord"
+    },
+    {
+        number: "738-738",
+        name: "QDOT Traveler Hotline",
+        foundAt: "Discord"
+    },
+    {
+        number: "738-786",
+        name: "QDOT Memory Storm Hotline",
+        foundAt: "Discord"
+    },
+    {
+        number: "773-201",
+        name: "Seven Monolith Village",
+        foundAt: "Discord"
+    },
+    {
+        number: "773-202",
+        name: "Alpha Servie Phone",
+        foundAt: "Discord"
+    },
+    {
+        number: "773-214",
+        name: "Maria's Burrito Explosion",
+        foundAt: "Discord"
+    },
+    {
+        number: "773-737",
+        name: "Attention Dramcorp Drones Message",
+        foundAt: "Discord"
+    },
+    {
+        number: "834-001",
+        name: "DASMR",
+        foundAt: "Discord"
+    },
+    {
+        number: "834-114",
+        name: "Emotional Release Hotline",
+        foundAt: "Discord"
+    },
+    {
         number: "877-942-8484",
         name: "Sherman Stokes",
         foundAt: "Reddit"
