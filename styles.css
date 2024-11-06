@@ -58,7 +58,8 @@ li:not(.unknownItem) {
     align-items: end;
 }
 
-li.unknownItem {
+li.unknownItem,
+footer {
     color: navy;
     font-family: "Single Day", cursive;
     font-weight: 400;
