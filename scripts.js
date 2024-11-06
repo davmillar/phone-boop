@@ -518,6 +518,96 @@ const numbers = [
         foundAt: "Discord"
     },
     {
+        number: "303-362",
+        name: "Tut Field Office",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-371",
+        name: "Cheshire Manor Apartment For Rent",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-373",
+        name: "Call Home?",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-375",
+        name: "Call The Doc?",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-391",
+        name: "Miss Prim's Exotic Beasts By Appointment Only",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-462",
+        name: "Cosmic Safari Guided Tours Of The Beyond",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-719",
+        name: "Smiley?",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-720",
+        name: "Dad?",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-762",
+        name: "The Arsenal?",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-888",
+        name: "Hypnocorp",
+        foundAt: "Discord"
+    },
+    {
+        number: "303-939",
+        name: "Queries of the Unexplained Investigations and Research Community (QUIRC)",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-202",
+        name: "Source Well Security Station",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-205",
+        name: "Accident Avoidance Operations",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-206",
+        name: "Anomalous Composition Monitoring Station",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-207",
+        name: "Omega Mart Factory",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-350",
+        name: "Element A: Florisium",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-352",
+        name: "Element C: Helical Wheevorizer",
+        foundAt: "Discord"
+    },
+    {
+        number: "322-353",
+        name: "Element D: Product Incubator",
+        foundAt: "Discord"
+    },
+    {
         number: "877-942-8484",
         name: "Sherman Stokes",
         foundAt: "Reddit"
