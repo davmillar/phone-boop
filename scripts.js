@@ -241,11 +241,6 @@ const numbers = [
         number: "484-366",
         name: "Presidential World Domination Red Phone Line",
         foundAt: "RT"
-    }, 
-    {
-        number: "278-209",
-        name: "??? (All circuits busy now)",
-        foundAt: "RT"
     },
     {
         number: "010-222-8371",
@@ -860,7 +855,36 @@ const numbers = [
     {
         number: "834-114",
         name: "Emotional Release Hotline",
-
+        foundAt: "Discord"
+    },
+    {
+        number: "834-170",
+        name: "Desert Creatures Deliverance",
+        foundAt: "Discord"
+    },
+    {
+        number: "834-200",
+        name: "Kaz's Self-Guided Emotion-Disintegrator",
+        foundAt: "Discord"
+    },
+    {
+        number: "834-344",
+        name: "Marin Dram",
+        foundAt: "Discord"
+    },
+    {
+        number: "834-466",
+        name: "Buseca Wisdom Line (Seven Monolith Village Radio Station)",
+        foundAt: "Discord"
+    },
+    {
+        number: "834-737",
+        name: "Lara, Jesse, & Ximena (L.X.J)",
+        foundAt: "Discord"
+    },
+    {
+        number: "834-777",
+        name: "Rose's Medical Service",
         foundAt: "Discord"
     },
     {
@@ -868,6 +892,216 @@ const numbers = [
         name: "Interdimensional Workers of the Multiverse",
         foundAt: "Discord"
     },
+    {
+        number: "101-462",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "170-415",
+        name: "??? (Jessamy's RTD pass number found in Exchange memory wall)",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "278-227",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "278-279",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "278-729",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "303-192",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "303-333",
+        name: "??? (Shoes hanging in CS)",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "322-354",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "322-478",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "367-305",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "373-775",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-209",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-421",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-421",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-492",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-716",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-812",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-896",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-987",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "423-277",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "437-776",
+        name: "??? (Power of Positive Me hanics Flyer)",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "478-201",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-078",
+        name: "??? (TRU Trailer)",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-204",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-207",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-222",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-282",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-337",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-401",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-424",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-634",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-726",
+        name: "??? (In Spanish)",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-736",
+        name: "??? (TRU Trailer)",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "378-764",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-848",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-878",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-888",
+        name: "??? (In Spanish)",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "484-976",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "589-777",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "640-666",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "834-723",
+        name: "???",
+        foundAt: "Discord"
+    }, 
+    {
+        number: "848-222",
+        name: "???",
+        foundAt: "Discord"
+    }, 
     {
         number: "877-942-8484",
         name: "Sherman Stokes",
@@ -904,25 +1138,52 @@ const createImage = (src, alt) => {
 
 const list = document.createElement('ul');
 
-numbers.sort((dataA, dataB) => {
-    let nameComp = dataA.name.localeCompare(dataB.name);
-
-    if (nameComp !== 0) {
-        return nameComp;
+numbers.map(dataItem => ({
+    ...dataItem,
+    unknown: dataItem.name.match(/(?:\?\?\?)/g)
+})).sort((dataA, dataB) => {
+    if (dataA.unknown && !dataB.unknown) {
+        return 1;
     }
+    
+    if (dataB.unknown && !dataA.unknown) {
+        return -1;
+    }
+    
+    if (!dataA.unknown && !dataB.unknown) {
+    
+        let nameComp = dataA.name.localeCompare(dataB.name);
 
+        if (nameComp !== 0) {
+            return nameComp;
+        }
+    }
+    
     return dataA.number.localeCompare(dataB.number);
 }).forEach((data) => {
     const listItem = document.createElement('li');
     
-    listItem.appendChild(createStrong(data.name));
-    listItem.appendChild(createSpan(''));
-    
-    if (data.text) { 
-        listItem.appendChild(createSMSLink(data.number));
-    } else {
+    if (data.unknown) {
+        listItem.classList.add("unknownItem");
+        
+        if (data.text) { 
+            listItem.appendChild(createSMSLink(data.number));
+        } else {
             listItem.appendChild(createSpan(data.number));
-    } 
+        }
+        
+        listItem.appendChild(createSpan(data.name));
+    } else {
+        listItem.appendChild(createStrong(data.name));
+        listItem.appendChild(createSpan(''));
+    
+        if (data.text) { 
+            listItem.appendChild(createSMSLink(data.number));
+        } else {
+            listItem.appendChild(createSpan(data.number));
+        } 
+    }
+
         
     list.appendChild(listItem);
     

@@ -47,29 +47,46 @@ ul {
 }
 
 li {
-    display: flex;
+    display: block;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-li :is(span, strong, a) {
-    display: inline-block;
+li:not(.unknownItem) {
+    display: flex;
+}
+
+li.unknownItem {
+    color: navy;
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+li :is(span, strong, a),
+.unknownItem :first-child::after {
+    display: inline;
+    margin: 0;
     padding: 0 .5em;
     vertical-align: top;
 }
 
-li :first-child {
+li:not(.unknownItem) :first-child {
     flex-shrink: 1;
 }
 
-li :nth-child(2) {
+li:not(.unknownItem) :nth-child(2) {
     flex: 1;
+}
+
+li:not(.unknownItem) :nth-child(2) {
+    flex-shrink: 0;
     border-bottom: 2px dotted;
 }
 
-li :last-child {
-    flex-shrink: 0;
+.unknownItem :first-child::after {
+    content: "---";
 }
 
 li.imageItem {
