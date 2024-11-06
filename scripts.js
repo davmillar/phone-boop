@@ -608,6 +608,11 @@ const numbers = [
         foundAt: "Discord"
     },
     {
+        number: "869-496",
+        name: "Interdimensional Workers of the Multiverse",
+        foundAt: "Discord"
+    },
+    {
         number: "877-942-8484",
         name: "Sherman Stokes",
         foundAt: "Reddit"
