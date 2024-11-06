@@ -860,6 +860,12 @@ const numbers = [
     {
         number: "834-114",
         name: "Emotional Release Hotline",
+
+        foundAt: "Discord"
+    },
+    {
+        number: "869-496",
+        name: "Interdimensional Workers of the Multiverse",
         foundAt: "Discord"
     },
     {
