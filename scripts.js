@@ -214,11 +214,6 @@ const numbers = [
     },
     {
         number: "639-349",
-        name: "SeiSo's Specialty Tools",
-        foundAt: "RT"
-    }, 
-    {
-        number: "639-349",
         name: "Are you Flexing On Me Bro? (Male Aggression Hotline)",
         foundAt: "RT"
     }, 
@@ -240,6 +235,11 @@ const numbers = [
     {
         number: "484-211",
         name: "Lampshop Alley",
+        foundAt: "RT"
+    }, 
+    {
+        number: "484-366",
+        name: "Presidential World Domination Red Phone Line",
         foundAt: "RT"
     }, 
     {
@@ -324,12 +324,7 @@ const numbers = [
     }, 
     {
         number: "639-119",
-        name: "Buy Our Collected Calls",
-        foundAt: "RT"
-    },
-    {
-        number: "639-119",
-        name: "Ska Band Hotline",
+        name: "Emergency Dispatch Center",
         foundAt: "RT"
     }, 
     {
