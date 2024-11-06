@@ -924,8 +924,9 @@ const numbers = [
     }, 
     {
         number: "303-333",
-        name: "??? (Shoes hanging in CS)",
-        foundAt: "Discord"
+        name: "Message about Senal family?",
+        foundAt: "CS",
+        foundBy: "u/exgaysurvivordan"
     }, 
     {
         number: "322-354",
