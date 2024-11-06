@@ -619,7 +619,7 @@ const numbers = [
     },
     {
         number: "322-457",
-        name: "	Herc Klemens",
+        name: "Herc Klemens",
         foundAt: "Discord"
     },
     {
@@ -794,7 +794,7 @@ const numbers = [
     },
     {
         number: "664-205",
-        name: "Omega Mart Garden,
+        name: "Omega Mart Garden",
         foundAt: "Discord"
     },
     {
