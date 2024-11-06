@@ -388,7 +388,7 @@ const numbers = [
         foundAt: "Reddit"
     },
     {
-        number: "278-LAW",
+        number: "278-LAW (529)",
         name: "Law Offices of La Madrina",
         foundAt: "Reddit"
     },
@@ -475,6 +475,46 @@ const numbers = [
     {
         number: "278-404",
         name: "Forgotten Four Tipline",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-487",
+        name: "The Gyre Apartments",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-563",
+        name: "Infatuation Station Stanline",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-569",
+        name: "Hair Management",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-636",
+        name: "SameDay News Office",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-747",
+        name: "Daily Phaseball Recap",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-766",
+        name: "Cecil Baca's Audio Poem Repository",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-930",
+        name: "Convergence Exchange Main Line",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-995",
+        name: "Pet Shop",
         foundAt: "Discord"
     },
     {
