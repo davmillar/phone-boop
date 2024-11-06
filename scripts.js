@@ -376,6 +376,111 @@ const numbers = [
         number: "639-000",
         name: "Meow Wolf Helpline",
         foundAt: "???"
+    },
+    {
+        number: "322-201",
+        name: "???",
+        foundAt: "Reddit"
+    },
+    {
+        number: "322-354",
+        name: "Oscillabond Maintenance",
+        foundAt: "Reddit"
+    },
+    {
+        number: "278-LAW",
+        name: "Law Offices of La Madrina",
+        foundAt: "Reddit"
+    },
+    {
+        number: "262-201",
+        name: "CS?",
+        foundAt: "Discord"
+    },
+    {
+        number: "262-201",
+        name: "CS?",
+        foundAt: "Discord"
+    },
+    {
+        number: "262-202",
+        name: "R@s Nest",
+        foundAt: "Discord"
+    },
+    {
+        number: "262-203",
+        name: "Rest Stop (CS Bathroom)",
+        foundAt: "Discord"
+    },
+    {
+        number: "276-676",
+        name: "Marin Dram Tip Line",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-112",
+        name: "Elektro",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-201",
+        name: "Panopticon Technician",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-202",
+        name: "SaLawn",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-203",
+        name: "C-Street Alley Payphone",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-204",
+        name: "Mijo Miho",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-205",
+        name: "C-Street North Payphone",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-206",
+        name: "C-Street South Payphone",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-207",
+        name: "The Cycle",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-209",
+        name: "May & Fred Cotter",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-221",
+        name: "Sid the Psychic",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-346",
+        name: "Oprheum Monoplex Movie Phone",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-404",
+        name: "Forgotten Four Tipline",
+        foundAt: "Discord"
+    },
+    {
+        number: "877-942-8484",
+        name: "Sherman Stokes",
+        foundAt: "Reddit"
     }
 ];
 
