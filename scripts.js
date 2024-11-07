@@ -393,11 +393,6 @@ const numbers = [
         foundAt: "Discord"
     },
     {
-        number: "262-201",
-        name: "CS?",
-        foundAt: "Discord"
-    },
-    {
         number: "262-202",
         name: "R@s Nest",
         foundAt: "Discord"
