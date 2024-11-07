@@ -6,7 +6,7 @@ const numbers = [
     },
     {
         number: "313-131",
-        name: "C-Street/Denver according to ETNL Reception Desk",
+        name: "??? (C-Street/Denver according to ETNL Reception Desk)",
         foundAt: "RT"
     },
     {
@@ -124,10 +124,11 @@ const numbers = [
         name: "Dramcorp Factory Foreman's Office",
         foundAt: "OM"
     },
-
     {
         number: "972-736-7676",
-        name: "Dug's Old Phone Number (Use MW App Now)",
+        name: "Dug",
+        note: "old number - use MW app",
+        strike: true,
         foundAt: "TRU",
         image: "dug.png",
         imageAlt: "Got a bean for your mind garden? Text Dug at 972-736-7676"
@@ -899,10 +900,17 @@ const numbers = [
     }, 
     {
         number: "278-227",
-        name: "???",
-        foundAt: "Discord"
+        name: "Alien Snow Day 1",
+        foundAt: "Discord",
+        foundBy: "MWF1"
     }, 
     {
+        number: "278-229",
+        name: "Alien Snow Day 2",
+        foundAt: "Discord",
+        foundBy: "MWF1"
+    }, 
+    { 
         number: "278-279",
         name: "???",
         foundAt: "Discord"
@@ -913,6 +921,13 @@ const numbers = [
         foundAt: "Discord"
     }, 
     {
+        number: "278-929",
+        name: "Alien Snow Day?",
+        note: "Pin: 5",
+        foundAt: "Discord",
+        foundBy: "MWF1"
+    }, 
+    { 
         number: "303-192",
         name: "???",
         foundAt: "Discord"
@@ -1171,13 +1186,24 @@ numbers.map(dataItem => ({
         listItem.appendChild(createSpan(data.name));
     } else {
         listItem.appendChild(createStrong(data.name));
-        listItem.appendChild(createSpan(''));
-    
-        if (data.text) { 
-            listItem.appendChild(createSMSLink(data.number));
-        } else {
-            listItem.appendChild(createSpan(data.number));
+        
+        let dottedSpan = createSpan(data.note || '');
+        
+        if (data.note) {
+            dottedSpan.classList.add('note');
         } 
+        
+        listItem.appendChild(dottedSpan);
+    
+        let numberEl = data.text ?
+            createSMSLink(data.number) :
+            createSpan(data.number);
+            
+        if (data.strike) {
+            numberEl.classList.add("strike");
+        } 
+        
+        listItem.appendChild(numberEl); 
     }
 
         
