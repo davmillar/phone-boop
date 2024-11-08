@@ -275,6 +275,12 @@ const numbers = [
         foundAt: "RT"
     },
     {
+        number: "484-366",
+        name: "Drew's Cell",
+        strike: true,
+        foundAt: "TRU"
+    },
+    {
         number: "010-222-8371",
         name: "Smellin Melvin",
         foundAt: "RT"
@@ -756,6 +762,12 @@ const numbers = [
         foundAt: "Discord"
     },
     {
+        number: "484-623",
+        name: "Dentist",
+        strike: true,
+        foundAt: "Discord"
+    },
+    {
         number: "484-635",
         name: "Bangerz",
         foundAt: "Discord"
@@ -1043,8 +1055,8 @@ const numbers = [
     },
     {
         number: "484-204",
-        name: "???",
-        foundAt: "Discord"
+        name: "Marguerite's Nurse",
+        foundAt: "TRU"
     },
     {
         number: "484-207",
@@ -1055,6 +1067,12 @@ const numbers = [
         number: "484-222",
         name: "Adventure of Your Making",
         foundAt: "Discord"
+    },
+    {
+        number: "484-222",
+        name: "Family Doctor",
+        strike: true,
+        foundAt: "TRU"
     },
     {
         number: "484-282",
@@ -1090,6 +1108,12 @@ const numbers = [
         number: "484-736",
         name: "Skeptic Friends Network",
         foundAt: "Discord"
+    },
+    {
+        number: "484-736",
+        name: "Carmen Delaney",
+        strike: true,
+        foundAt: "TRu"
     },
     {
         number: "378-764",
