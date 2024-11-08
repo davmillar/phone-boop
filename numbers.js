@@ -950,37 +950,32 @@ const numbers = [
     },
     {
         number: "378-209",
-        name: "???",
+        name: "Dictation of Letter to Walter Dram",
         foundAt: "Discord"
     },
     {
         number: "378-421",
-        name: "???",
-        foundAt: "Discord"
-    },
-    {
-        number: "378-421",
-        name: "???",
+        name: "Source/Happle Voice Memo",
         foundAt: "Discord"
     },
     {
         number: "378-492",
-        name: "???",
+        name: "Dramlite Conversation",
         foundAt: "Discord"
     },
     {
         number: "378-716",
-        name: "???",
+        name: "Plenty Valley Jingle",
         foundAt: "Discord"
     },
     {
         number: "378-812",
-        name: "???",
+        name: "Potluck/Celia Dram Conversation",
         foundAt: "Discord"
     },
     {
         number: "378-896",
-        name: "???",
+        name: "Nula/Source Explainer",
         foundAt: "Discord"
     },
     {
@@ -990,7 +985,7 @@ const numbers = [
     },
     {
         number: "423-277",
-        name: "???",
+        name: "Is Eemia Still Frozen?",
         foundAt: "Discord"
     },
     {
