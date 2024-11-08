@@ -1080,7 +1080,7 @@ const numbers = [
     },
     {
         number: "484-878",
-        name: "???",
+        name: "Ice Cream Psychic Hotline",
         foundAt: "Discord"
     },
     {
@@ -1090,27 +1090,22 @@ const numbers = [
     },
     {
         number: "484-976",
-        name: "???",
-        foundAt: "Discord"
-    },
-    {
-        number: "589-777",
-        name: "???",
+        name: "Worm Group Singles Club",
         foundAt: "Discord"
     },
     {
         number: "640-666",
-        name: "???",
+        name: "??? (Cannot be completed as dialed)",
         foundAt: "Discord"
     },
     {
         number: "834-723",
-        name: "???",
+        name: "Radio Free ?",
         foundAt: "Discord"
     },
     {
         number: "848-222",
-        name: "???",
+        name: "??? (Jingle tones)",
         foundAt: "Discord"
     },
     {
