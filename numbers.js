@@ -270,6 +270,11 @@ const numbers = [
         foundAt: "RT"
     },
     {
+        number: "839-000",
+        name: "???",
+        foundAt: "TRU"
+    },
+    {
         number: "484-366",
         name: "Presidential World Domination Red Phone Line",
         foundAt: "RT"
@@ -409,7 +414,7 @@ const numbers = [
     {
         number: "322-201",
         name: "???",
-        foundAt: "Reddit"
+        foundAt: "TRU"
     },
     {
         number: "278-LAW (529)",
@@ -1119,6 +1124,11 @@ const numbers = [
         number: "378-764",
         name: "???",
         foundAt: "Discord"
+    },
+    {
+        number: "484-764",
+        name: "???",
+        foundAt: "TRU"
     },
     {
         number: "484-848",
