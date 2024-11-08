@@ -30,8 +30,23 @@ const numbers = [
         foundAt: "OM"
     },
     {
+        number: "376-771",
+        name: "Millica Harambasic",
+        foundAt: "OM"
+    },
+    {
         number: "376-772",
         name: "Beatrice Young",
+        foundAt: "OM"
+    },
+    {
+        number: "376-772",
+        name: "Vydilla Alton",
+        foundAt: "OM"
+    },
+    {
+        number: "376-772",
+        name: "Element B: Disambiguator / Terrestriator",
         foundAt: "OM"
     },
     {
@@ -87,6 +102,16 @@ const numbers = [
     {
         number: "376-406",
         name: "Dramcorp Legal",
+        foundAt: "OM"
+    },
+    {
+        number: "376-501",
+        name: "Ari Antoniu",
+        foundAt: "OM"
+    },
+    {
+        number: "376-501",
+        name: "Tallu lah Corrian",
         foundAt: "OM"
     },
     {
@@ -250,8 +275,9 @@ const numbers = [
     },
     {
         number: "278-201",
-        name: "??? (No response)",
-        foundAt: "RT"
+        name: "Panopticon Technician",
+        foundAt: "RT",
+        foundBy: "AgentX"
     },
     {
         number: "278-986",
@@ -260,7 +286,12 @@ const numbers = [
     },
     {
         number: "278-208",
-        name: "Laundromat?",
+        name: "Payphone?",
+        foundAt: "RT"
+    },
+    {
+        number: "278-208",
+        name: "The Cycle",
         foundAt: "RT"
     },
     {
@@ -399,11 +430,6 @@ const numbers = [
         foundAt: "Discord"
     },
     {
-        number: "278-201",
-        name: "Panopticon Technician",
-        foundAt: "Discord"
-    },
-    {
         number: "278-202",
         name: "SaLawn",
         foundAt: "Discord"
@@ -454,7 +480,12 @@ const numbers = [
         foundAt: "Discord"
     },
     {
-        number: "278-487",
+        number: "278-404",
+        name: "Tracking Error",
+        foundAt: "Discord"
+    },
+    {
+        number: "278-4VR (487)",
         name: "The Gyre Apartments",
         foundAt: "Discord"
     },
@@ -875,7 +906,7 @@ const numbers = [
     },
     {
         number: "101-462",
-        name: "???",
+        name: "??? Cosmic Safari",
         foundAt: "Discord"
     },
     {
@@ -914,7 +945,7 @@ const numbers = [
     },
     {
         number: "303-192",
-        name: "???",
+        name: "??? (Mountain Bell phone book from 1992 with number scratched to make 6-digit VOCS number)",
         foundAt: "Discord"
     },
     {
@@ -936,6 +967,11 @@ const numbers = [
     {
         number: "367-305",
         name: "???",
+        foundAt: "Discord"
+    },
+    {
+        number: "(20P)-229S-11",
+        name: "??? (HouseOnAHouseOnAHouse.com C-Street Poster)",
         foundAt: "Discord"
     },
     {
