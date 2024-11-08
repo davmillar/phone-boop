@@ -369,11 +369,6 @@ const numbers = [
         foundAt: "Reddit"
     },
     {
-        number: "322-354",
-        name: "Oscillabond Maintenance",
-        foundAt: "Reddit"
-    },
-    {
         number: "278-LAW (529)",
         name: "Law Offices of La Madrina",
         foundAt: "Reddit"
@@ -930,12 +925,12 @@ const numbers = [
     },
     {
         number: "322-354",
-        name: "???",
+        name: "DART Factory Maintenance Oscillibond Line",
         foundAt: "Discord"
     },
     {
         number: "322-478",
-        name: "???",
+        name: "Dramcorp Fired Employee",
         foundAt: "Discord"
     },
     {
