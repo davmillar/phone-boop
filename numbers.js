@@ -1015,7 +1015,7 @@ const numbers = [
     },
     {
         number: "484-282",
-        name: "???",
+        name: "9th Caller Auctions",
         foundAt: "Discord"
     },
     {
@@ -1025,7 +1025,7 @@ const numbers = [
     },
     {
         number: "484-401",
-        name: "???",
+        name: "Specific Information Line",
         foundAt: "Discord"
     },
     {
@@ -1035,7 +1035,7 @@ const numbers = [
     },
     {
         number: "484-634",
-        name: "???",
+        name: "Not Interesting Hotline",
         foundAt: "Discord"
     },
     {
@@ -1055,8 +1055,8 @@ const numbers = [
     },
     {
         number: "484-848",
-        name: "???",
-        foundAt: "Discord"
+        name: "Validate Your Emotions (Your Heart)",
+        foundAt: "TRU"
     },
     {
         number: "484-878",
