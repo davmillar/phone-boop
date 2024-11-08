@@ -1010,7 +1010,7 @@ const numbers = [
     },
     {
         number: "484-222",
-        name: "Auctioneer",
+        name: "Adventure of Your Making",
         foundAt: "Discord"
     },
     {
@@ -1040,7 +1040,7 @@ const numbers = [
     },
     {
         number: "484-726",
-        name: "??? (In Spanish)",
+        name: "S.A.M.M.I. (In Spanish)",
         foundAt: "Discord"
     },
     {
