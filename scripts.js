@@ -6,6 +6,8 @@ const createTagWithContent = (tagName, content) => {
     return newTag;
 };
 
+const headings = (contents) => createTagWithContent('h2', contents);
+
 const createSMSLink = (number) => {
     const link = createTagWithContent("a", number);
     link.setAttribute("href", "sms:+1" + number.replace(/\D/g, ""));
@@ -22,9 +24,16 @@ const createImage = (src, alt) => {
     return img;
 };
 
-const list = createTag("ul");
+const OMNumbers = numbers.filter((number) => number.foundAt == "OM");
+const RTNumbers = numbers.filter((number) => number.foundAt == "RT");
+const TRUNumbers = numbers.filter((number) => number.foundAt == "TRU");
+const redditNumbers = numbers.filter((number) => number.foundAt == "Reddit");
+const discordNumbers = numbers.filter((number) => number.foundAt == "Discord");
 
-numbers
+
+const addSection = (list, filteredArray, sectionTitle) => {
+    list.appendChild(headings(sectionTitle))
+    filteredArray
     .map((dataItem) => ({
         ...dataItem,
         unknown: dataItem.name.match(/(?:\?\?\?)/g),
@@ -94,6 +103,21 @@ numbers
 
             list.appendChild(listItemImg);
         }
+        
     });
+    return list
+}
 
-document.body.insertBefore(list, document.querySelector('footer'));
+const fullList = createTag("ul");
+
+const omegaList = addSection(fullList, OMNumbers, 'Location: Omega Mart');
+const radioTaveList = addSection(fullList, RTNumbers, 'Location: Radio Tave');
+const realUnrealList = addSection(fullList, TRUNumbers, 'Location: The Real Unreal');
+const redditList = addSection(fullList, redditNumbers, 'Location Unknown: Found on Reddit');
+const discordlList = addSection(fullList, discordNumbers, 'Location Unknown: Found on Discord');
+
+document.body.insertBefore(omegaList, document.querySelector('footer'));
+document.body.insertBefore(radioTaveList, document.querySelector('footer'));
+document.body.insertBefore(realUnrealList, document.querySelector('footer'));
+document.body.insertBefore(redditList, document.querySelector('footer'));
+document.body.insertBefore(discordList, document.querySelector('footer'));
