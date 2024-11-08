@@ -12,142 +12,164 @@ const numbers = [
     {
         number: "376-101",
         name: "Walter Dram",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp C-Suite'
     },
     {
         number: "376-102",
         name: "Cecelia Dram",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp C-Suite'
     },
     {
         number: "376-105",
         name: "Kaz Matsumura",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp C-Suite'
     },
     {
         number: "376-771",
         name: "Lord Petri Dockett III",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-771",
-        name: "Millica Harambasic",
-        foundAt: "OM"
+        name: "Milica Harambasic",
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-772",
         name: "Beatrice Young",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-772",
         name: "Vydilla Alton",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-772",
         name: "Element B: Disambiguator / Terrestriator",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Factory Elements'
     },
     {
         number: "376-773",
         name: "Elder Yanis",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-774",
         name: "Oni Stern",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-775",
         name: "Belmont Grant",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-776",
         name: "Javier Apodaca",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-777",
         name: "Olive Rojas-Diaz",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-778",
         name: "Jacqueline Sorrentino",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-779",
         name: "El Espectro",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp Board'
     },
     {
         number: "376-305",
         name: "Dramcorp Main Line",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "376-303",
         name: "Dramcorp IT",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "376-307",
         name: "Dramcorp HR",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "376-406",
         name: "Dramcorp Legal",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "376-501",
         name: "Ari Antoniu",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "376-501",
-        name: "Tallu lah Corrian",
-        foundAt: "OM"
+        name: "Tallulah Corrian",
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "376-501",
         name: "Dramcorp Marketing",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "376-868",
         name: "Dramcorp Hotline",
-        foundAt: "OM"
-    },
-    {
-        number: "376-912",
-        name: "Dramcorp Security",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "378-001",
         name: "DART Offices",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'DART'
     },
     {
         number: "378-010",
         name: "DART Portal Testing",
-        foundAt: "OM"
+        foundAt: "OM",
+        group: 'DART'
     },
     {
         number: "378-492",
         name: "DART Flyer",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'DART'
     },
     {
         number: "322-426",
-        name: "Dramcorp Factory Foreman's Office",
-        foundAt: "OM"
+        name: "Factory Foreman's Office",
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "972-736-7676",
@@ -170,24 +192,27 @@ const numbers = [
     },
     {
         number: "484-588",
-        name: "Marguerite",
-        note: "Delaney family neighbor",
+        name: "??, Marguerite",
+        person: true,
+        note: "Delaneys' neighbor",
         foundAt: "TRU"
     },
     {
         number: "484-777",
-        name: "Battle of the Ages (Spanish)",
-        foundAt: "TRU"
+        name: "Battle of the Ages",
+        foundAt: "TRU",
+        group: 'En Espa\ñol'
     },
     {
         number: "484-237",
-        name: "?ur-i-ñoz",
+        name: "?ur-i-\ñoz",
         foundAt: "TRU"
     },
     {
         number: "584-388",
         name: "ETNL Main",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "584-935",
@@ -197,7 +222,8 @@ const numbers = [
     {
         number: "584-076",
         name: "ETNL Reception",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "584-344",
@@ -207,27 +233,32 @@ const numbers = [
     {
         number: "584-001",
         name: "ETNL Station Manager",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "584-748",
         name: "ETNL Green Room",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "584-480",
         name: "ETNL Rack Room",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "584-873",
         name: "ETNL Roof Deck",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "584-986",
         name: "ETNL Breakroom",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "584-549",
@@ -267,7 +298,8 @@ const numbers = [
     {
         number: "484-211",
         name: "Lampshop Alley",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'Payphones'
     },
     {
         number: "839-000",
@@ -280,10 +312,27 @@ const numbers = [
         foundAt: "RT"
     },
     {
+        number: "834-286",
+        name: "LaVerne (Cell)",
+        person: true,
+        // strike: true,
+        foundAt: "TRU",
+        group: 'Fuqua'
+    },
+    {
         number: "484-366",
-        name: "Drew's Cell",
+        name: "??, Drew (Cell)",
+        person: true,
         strike: true,
         foundAt: "TRU"
+    },
+    {
+        number: "773-214",
+        name: "Jerrica (Cell)",
+        person: true,
+        strike: true,
+        foundAt: "TRU",
+        group: 'Fuqua'
     },
     {
         number: "010-222-8371",
@@ -304,7 +353,8 @@ const numbers = [
     {
         number: "278-208",
         name: "Payphone?",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'Payphones'
     },
     {
         number: "278-208",
@@ -319,12 +369,15 @@ const numbers = [
     {
         number: "584-386",
         name: "ETNL Main/Phone Tree",
-        foundAt: "RT"
+        foundAt: "RT",
+        group: 'ETNL'
     },
     {
         number: "484-201",
-        name: "Delaney Kitchen",
-        foundAt: "RT"
+        name: "Carmen (Home)",
+        person: true,
+        foundAt: "RT",
+        group: 'Delaney'
     },
     {
         number: "713-281",
@@ -378,7 +431,7 @@ const numbers = [
     },
     {
         number: "773-404",
-        name: "Charlie Dram",
+        name: "Charlie Dram's Gas Station",
         foundAt: "RT"
     },
     {
@@ -393,13 +446,14 @@ const numbers = [
     },
     {
         number: "664-739",
-        name: "Hester Dram Dial-A-Romance",
+        name: "Hester Dram's Dial-A-Romance",
         foundAt: "RT"
     },
     {
         number: "664-666",
-        name: "Dramcorp Chambers of Customer Service",
-        foundAt: "RT"
+        name: "Chambers of Customer Service",
+        foundAt: "RT",
+        group: 'Dramcorp'
     },
     {
         number: "443-242",
@@ -454,7 +508,8 @@ const numbers = [
     {
         number: "278-203",
         name: "C-Street Alley Payphone",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Payphones'
     },
     {
         number: "278-204",
@@ -464,12 +519,14 @@ const numbers = [
     {
         number: "278-205",
         name: "C-Street North Payphone",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Payphones'
     },
     {
         number: "278-206",
         name: "C-Street South Payphone",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Payphones'
     },
     {
         number: "278-207",
@@ -478,7 +535,8 @@ const numbers = [
     },
     {
         number: "278-209",
-        name: "May & Fred Cotter",
+        name: "Cotter, May & Fred",
+        person: true,
         foundAt: "Discord"
     },
     {
@@ -614,136 +672,175 @@ const numbers = [
     {
         number: "322-207",
         name: "Omega Mart Factory",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "322-350",
         name: "Element A: Florisium",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Factory Elements'
     },
     {
         number: "322-352",
         name: "Element C: Helical Wheevorizer",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Factory Elements'
     },
     {
         number: "322-353",
         name: "Element D: Product Incubator",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Factory Elements'
     },
     {
         number: "322-355",
         name: "Element F: Horminal Essentuizer",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Factory Elements'
     },
     {
         number: "322-356",
         name: "Element H: Geodoica",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Factory Elements'
     },
     {
         number: "322-457",
-        name: "Herc Klemens",
+        name: "Klemens, Herc",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "322-463",
-        name: "Cadence Skilton",
+        name: "Skilton, Cadence",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "322-471",
-        name: "Milica Harambasic",
+        name: "Harambasic, Milica",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "322-479",
-        name: "Ari Antoniu",
+        name: "Antoniu, Ari",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "322-482",
-        name: "Vydilla Alton",
+        name: "Alton, Vydilla",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "322-484",
-        name: "Lester Nightshade",
+        name: "Nightshade, Lester",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "322-487",
-        name: "Nawar Al-Balushi",
+        name: "Al-Balushi, Nawar",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "322-490",
-        name: "Zenit Askfry",
+        name: "Askfry, Zenit",
+        person: true,
         foundAt: "Discord"
     },
     {
         number: "352-201",
         name: "QDOT Denver Station",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'QDOT'
     },
     {
         number: "376-201",
-        name: "Marketing & Future Now Office	",
-        foundAt: "Discord"
+        name: "Marketing & Future Now Office",
+        foundAt: "Discord",
+        group: 'Dramcorp'
     },
     {
         number: "376-202",
         name: "VP of Tomorrowment's Desk",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Dramcorp'
     },
     {
         number: "376-203",
-        name: "OM Bathroom (Dram IT?)",
-        foundAt: "Discord"
+        name: "Omega Mart Bathroom",
+        foundAt: "Discord",
+        group: 'Omega Mart'
+    },
+    {
+        number: "376-203",
+        name: "Dramcorp IT",
+        foundAt: "Discord",
+        group: 'Dramcorp'
     },
     {
         number: "376-206",
-        name: "Dram Legal Dept.",
-        foundAt: "Discord"
+        name: "Dramcorp Legal",
+        foundAt: "Discord",
+        group: 'Dramcorp'
     },
     {
         number: "376-210",
         name: "Dram Reception Waiting Zone",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Dramcorp'
     },
     {
         number: "376-211",
-        name: "Money Tornado	",
+        name: "Money Tornado",
         foundAt: "Discord"
     },
     {
         number: "376-212",
-        name: "VP of Futurability's Desk (Kaz)",
-        foundAt: "Discord"
+        name: "VP of Futurability's Desk",
+        note: 'Kaz',
+        foundAt: "Discord",
+        group: 'Dramcorp'
     },
     {
         number: "376-610",
         name: "DART Portal Testing",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'DART'
     },
     {
         number: "376-633",
-        name: "Portal Sickness Hotline/DART-Med",
-        foundAt: "Discord"
+        name: "DART-Med",
+        foundAt: "Discord",
+        group: 'DART'
     },
     {
-        number: "376-868",
-        name: "Dramcorp Hotline",
-        foundAt: "Discord"
+        number: "376-633",
+        name: "Portal Sickness Hotline",
+        foundAt: "Discord",
+        group: 'DART'
     },
     {
         number: "376-912",
-        name: "Dramcorp Security (Chuck Stager)",
-        foundAt: "Discord"
+        name: "Dramcorp Security",
+        foundAt: "OM",
+        group: 'Dramcorp'
+    },
+    {
+        number: "376-912",
+        name: "Chuck Stager",
+        foundAt: "OM",
+        group: 'Dramcorp'
     },
     {
         number: "378-989",
-        name: "What Is This (Plot Explainer)",
+        name: "What Is This?",
+        note: 'Plot Explainer',
         foundAt: "Discord"
     },
     {
@@ -800,67 +897,86 @@ const numbers = [
     {
         number: "663-000",
         name: "Omega Mart Main Line",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "663-266",
-        name: "Omega Mart Main/Difficult Spills Helpline?",
-        foundAt: "Discord"
+        name: "Omega Mart Main",
+        foundAt: "Discord",
+        group: 'Omega Mart'
+    },
+    {
+        number: "663-266",
+        name: "Difficult Spills Helpline?",
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "664-201",
         name: "Omega Mart Produce",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "664-203",
         name: "Omega Mart Aisle 5",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "664-204",
         name: "Omega Mart Apparel",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "664-205",
         name: "Omega Mart Garden",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "664-206",
         name: "Omega Mart Deli Arts",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "664-207",
         name: "Omega Mart Breakroom",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "664-665",
         name: "Omega Mart Reporting Issue Hotline",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'Omega Mart'
     },
     {
         number: "738-101",
         name: "QDOT Superconductor General's Desk",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'QDOT'
     },
     {
         number: "738-143",
         name: "QDOT Department of Quantum and Mnemonic Research",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'QDOT'
     },
     {
         number: "738-738",
         name: "QDOT Traveler Hotline",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'QDOT'
     },
     {
         number: "738-786",
         name: "QDOT Memory Storm Hotline",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'QDOT'
     },
     {
         number: "773-201",
@@ -904,7 +1020,8 @@ const numbers = [
     },
     {
         number: "834-344",
-        name: "Marin Dram",
+        name: "Dram, Marin",
+        person: true,
         foundAt: "Discord"
     },
     {
@@ -980,12 +1097,14 @@ const numbers = [
     {
         number: "322-354",
         name: "DART Factory Maintenance Oscillibond Line",
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: 'DART'
     },
     {
         number: "322-478",
-        name: "Dramcorp Fired Employee",
-        foundAt: "Discord"
+        name: "Dramcorp Fired Employee?",
+        foundAt: "Discord",
+        group: 'Dramcorp'
     },
     {
         number: "367-305",
@@ -1024,7 +1143,7 @@ const numbers = [
     },
     {
         number: "378-812",
-        name: "Potluck/Celia Dram Conversation",
+        name: "Potluck/Cecelia Dram Conversation",
         foundAt: "Discord"
     },
     {
@@ -1060,7 +1179,9 @@ const numbers = [
     },
     {
         number: "484-204",
-        name: "Marguerite's Nurse",
+        name: "??",
+        person: true,
+        note: "Marguerite's Nurse",
         foundAt: "TRU"
     },
     {
@@ -1106,8 +1227,9 @@ const numbers = [
     },
     {
         number: "484-726",
-        name: "S.A.M.M.I. (In Spanish)",
-        foundAt: "Discord"
+        name: "S.A.M.M.I.",
+        foundAt: "TRU",
+        group: 'En Espa\ñol'
     },
     {
         number: "484-736",
@@ -1116,9 +1238,11 @@ const numbers = [
     },
     {
         number: "484-736",
-        name: "Carmen Delaney",
+        name: "Carmen (Cell)",
+        person: true,
         strike: true,
-        foundAt: "TRu"
+        foundAt: "TRU",
+        group: 'Delaney'
     },
     {
         number: "378-764",
@@ -1142,8 +1266,9 @@ const numbers = [
     },
     {
         number: "484-888",
-        name: "??? (In Spanish)",
-        foundAt: "Discord"
+        name: "???",
+        foundAt: "Discord"//,
+        // group: 'En Espa\ñol'
     },
     {
         number: "484-976",
