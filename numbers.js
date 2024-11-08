@@ -169,8 +169,14 @@ const numbers = [
         foundAt: "???"
     },
     {
+        number: "484-588",
+        name: "Marguerite",
+        note: "Delaney family neighbor",
+        foundAt: "TRU"
+    },
+    {
         number: "484-777",
-        name: "Battle of the Ages/Llama",
+        name: "Battle of the Ages (Spanish)",
         foundAt: "TRU"
     },
     {
@@ -676,7 +682,7 @@ const numbers = [
     },
     {
         number: "376-202",
-        name: "VP of Tomorrowment's Desk	",
+        name: "VP of Tomorrowment's Desk",
         foundAt: "Discord"
     },
     {
@@ -1031,8 +1037,9 @@ const numbers = [
     },
     {
         number: "484-078",
-        name: "??? (TRU Trailer)",
-        foundAt: "Discord"
+        name: "Pharmacy?",
+        note: "TRU Trailer",
+        foundAt: "TRU"
     },
     {
         number: "484-204",
