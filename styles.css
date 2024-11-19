@@ -118,7 +118,7 @@ li.list-header {
 #yellow-pages li + li.space-below::after {
     content: ' ';
     position: absolute;
-    bottom: -12pt;
+    bottom: -14pt;
     left: 0;
     right: 0;
     border-bottom: 3pt double #2108;
