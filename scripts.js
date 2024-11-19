@@ -89,6 +89,9 @@ numbers
             if (data.group) {
                 listItem.classList.add('in-group');
             }
+            
+            let wrapSpan = createSpan('');
+            listItem.appendChild(wrapSpan);
 
             if (data.name.match(/^\?\?[^\?]?/)) {
                 let nameSpan = createSpan('');
@@ -96,9 +99,9 @@ numbers
                 redactedBit.classList.add('redacted');
                 nameSpan.appendChild(redactedBit);
                 nameSpan.appendChild(createSpan(data.name.replace(/(\?\?)/, '')));
-                listItem.appendChild(nameSpan);
+                wrapSpan.appendChild(nameSpan);
             } else {
-                listItem.appendChild(createSpan(data.name));
+                wrapSpan.appendChild(createSpan(data.name));
             }
 
             let dottedSpan = createSpan(data.note || '');
@@ -107,7 +110,7 @@ numbers
                 dottedSpan.classList.add('note');
             }
 
-            listItem.appendChild(dottedSpan);
+            wrapSpan.appendChild(dottedSpan);
 
             let numberEl = data.text ?
                 createSMSLink(data.number) :
