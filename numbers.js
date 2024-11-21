@@ -312,6 +312,11 @@ const numbers = [
         foundAt: "RT"
     },
     {
+        number: "484-221",
+        name: "Emergence",
+        foundIn: "TRU"
+    },
+    {
         number: "834-286",
         name: "LaVerne (Cell)",
         person: true,
