@@ -424,7 +424,7 @@ const numbers = [
     },
     {
         number: "713-281",
-        name: "DJ Hawk? (Cannot be completed ad dialed)",
+        name: "??? DJ Hawk? (Cannot be completed as dialed)",
         foundAt: "RT"
     },
     {
@@ -1184,6 +1184,16 @@ const numbers = [
         number: "373-775",
         name: "???",
         foundAt: "Discord"
+    },
+    {
+        number: "129-150",
+        name: "??? GSM? From Xerox packet at ETNL reception",
+        foundAt: "RT"
+    },
+    {
+        number: "136-186",
+        name: "??? g/m^2? From Xerox packet at ETNL reception",
+        foundAt: "RT"
     },
     {
         number: "378-209",
