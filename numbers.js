@@ -32,6 +32,32 @@ const numbers = [
         name: "Lord Petri Dockett III",
         foundAt: "OM",
         group: 'Dramcorp Board'
+    },    
+    {
+        number: "376-101",
+        name: "Walter (Work)",
+        foundAt: "OM",
+        group: 'Dram',
+        person: true
+    },
+    {
+        number: "376-102",
+        name: "Cecelia (Work)",
+        foundAt: "OM",
+        group: 'Dram',
+        person: true
+    },
+    {
+        number: "376-105",
+        name: "Matsumura, Kaz (Work)",
+        foundAt: "OM",
+        person: true
+    },
+    {
+        number: "376-771",
+        name: "Dockett, Lord Petri III (Work)",
+        foundAt: "OM",
+        person: true
     },
     {
         number: "376-771",
@@ -302,6 +328,18 @@ const numbers = [
         group: 'Payphones'
     },
     {
+        number: "???-???",
+        name: "House of Eternal Return",
+        foundAt: "Factory Obscura Mixtape",
+        note: "Talk/watch from Factory Obscura Mixtape in OKC",
+        group: 'Payphones'
+    },
+    {
+        number: "???-???",
+        name: "??? Video phone at Factory Obscura Mixtape in OKC, can contact from payphone at House of Eternal Return in Santa Fe",
+        foundAt: "HoER"
+    },
+    {
         number: "839-000",
         name: "???",
         foundAt: "TRU"
@@ -440,6 +478,13 @@ const numbers = [
         foundAt: "RT"
     },
     {
+        number: "773-404",
+        name: "Charlie (Work)",
+        foundAt: "RT",
+        group: "Dram",
+        person: true
+    },
+    {
         number: "443-226",
         name: "Banana Wizard",
         foundAt: "RT"
@@ -448,6 +493,13 @@ const numbers = [
         number: "834-286",
         name: "Defense Class",
         foundAt: "RT"
+    },
+    {
+        number: "664-739",
+        name: "Hester",
+        foundAt: "RT",
+        group: "Dram",
+        person: true
     },
     {
         number: "664-739",
@@ -843,6 +895,12 @@ const numbers = [
         group: 'Dramcorp'
     },
     {
+        number: "376-912",
+        name: "Stager, Chuck (Work)",
+        foundAt: "OM",
+        person: true
+    },
+    {
         number: "378-989",
         name: "What Is This?",
         note: 'Plot Explainer',
@@ -1025,9 +1083,10 @@ const numbers = [
     },
     {
         number: "834-344",
-        name: "Dram, Marin",
+        name: "Marin",
         person: true,
-        foundAt: "Discord"
+        foundAt: "Discord",
+        group: "Dram"
     },
     {
         number: "834-466",
@@ -1294,6 +1353,12 @@ const numbers = [
         number: "848-222",
         name: "??? (Jingle tones)",
         foundAt: "Discord"
+    },
+    {
+        number: "877-942-8484",
+        name: "Stokes, Sherman",
+        foundAt: "Reddit",
+        person: true
     },
     {
         number: "877-942-8484",
