@@ -954,7 +954,8 @@ const numbers = [
     },
     {
         number: "484-986",
-        name: "Chef Choose Your Own Adventure",
+        name: "Save Less Foods",
+        note: "Chef Choose Your Own Adventure",
         foundAt: "Discord"
     },
     {
@@ -971,7 +972,7 @@ const numbers = [
     },
     {
         number: "663-266",
-        name: "Difficult Spills Helpline?",
+        name: "Difficult Spills Hotline",
         foundAt: "Discord",
         group: 'Omega Mart'
     },
@@ -1214,6 +1215,11 @@ const numbers = [
         number: "378-716",
         name: "Plenty Valley Jingle",
         foundAt: "Discord"
+    },
+    {
+        number: "584-635",
+        name: "Madame K",
+        foundBy: "TrashCam on Discord"
     },
     {
         number: "378-812",
