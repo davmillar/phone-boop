@@ -102,6 +102,12 @@ const numbers = [
         group: 'Dramcorp Board'
     },
     {
+        number: "376-775",
+        name: "Grant, Belmont",
+        foundAt: "OM",
+        person: true
+    },
+    {
         number: "376-776",
         name: "Javier Apodaca",
         foundAt: "OM",
@@ -1253,8 +1259,9 @@ const numbers = [
     },
     {
         number: "484-078",
-        name: "Pharmacy?",
+        name: "Pharmacy",
         note: "TRU Trailer",
+        strike: true,
         foundAt: "TRU"
     },
     {
@@ -1283,11 +1290,6 @@ const numbers = [
     {
         number: "484-282",
         name: "9th Caller Auctions",
-        foundAt: "Discord"
-    },
-    {
-        number: "484-337",
-        name: "???",
         foundAt: "Discord"
     },
     {
@@ -1385,5 +1387,30 @@ const numbers = [
         number: "278-832",
         name: "Techstream",
         foundBy: "MWF1"
-    } 
+    },
+    {
+        number: "437-646",
+        name: "Nimsesku Preserve Database",
+        foundBy: "MWF1"
+    },
+    {
+        number: "484-078",
+        name: "Build-A-Decree",
+        foundBy: "MWF1"
+    },
+    {
+        number: "484-147",
+        name: "Universe Splitter",
+        foundBy: "MWF1"
+    },
+    {
+        number: "484-242",
+        name: "Cosmic Beings Missed Connections",
+        foundBy: "MWF1"
+    },
+    {
+        number: "484-337",
+        name: "GUIDES Emotion Simulator",
+        foundBy: "MWF1"
+    }
 ];
