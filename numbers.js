@@ -401,12 +401,6 @@ const numbers = [
     },
     {
         number: "278-208",
-        name: "Payphone?",
-        foundAt: "RT",
-        group: 'Payphones'
-    },
-    {
-        number: "278-208",
         name: "The Cycle",
         foundAt: "RT"
     },
@@ -586,15 +580,10 @@ const numbers = [
         group: 'Payphones'
     },
     {
-        number: "278-206",
+        number: "278-207",
         name: "C-Street South Payphone",
         foundAt: "Discord",
         group: 'Payphones'
-    },
-    {
-        number: "278-207",
-        name: "The Cycle",
-        foundAt: "Discord"
     },
     {
         number: "278-209",
